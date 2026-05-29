@@ -543,11 +543,11 @@ const PROJECTS: Array<{
       background:
         "Program Innovillage yang diinisiasi oleh PT Telkom Indonesia mendorong mahasiswa untuk mengembangkan solusi inovatif bagi permasalahan sosial di masyarakat. Hero.bin hadir sebagai respons terhadap permasalahan ketahanan pangan dan pemberdayaan ekonomi komunitas melalui sistem pertanian urban akuaponik yang terintegrasi dengan pengelolaan sampah organik.",
       myRole: [
-        "Memimpin keseluruhan pelaksanaan proyek Hero.bin dari tahap perencanaan hingga implementasi lapangan.",
-        "Merancang konsep sistem akuaponik yang sesuai dengan kapasitas dan kebutuhan komunitas sasaran.",
-        "Melatih anggota komunitas secara langsung dalam pengoperasian sistem akuaponik.",
-        "Mengelola dokumentasi proyek dan laporan perkembangan untuk kebutuhan program Innovillage.",
-        "Memimpin presentasi proyek di hadapan juri kompetisi nasional Innovillage.",
+        "Memimpin keseluruhan proyek Hero.bin sebagai ketua tim, dari tahap perencanaan hingga implementasi di lapangan.",
+        "Mengoordinasikan tim dalam dua lini kerja utama: pengembangan aplikasi Hero.bin dan pembangunan instalasi akuaponik.",
+        "Berkoordinasi langsung dengan pemerintah Desa Sugiale dan pengurus Bank Sampah Al Muqarrabin sebagai mitra program.",
+        "Mengoordinasikan pelatihan penggunaan aplikasi dan budidaya akuaponik bagi pengurus Bank Sampah Al Muqarrabin.",
+        "Memastikan kolaborasi lintas pihak berjalan untuk mendukung keberlanjutan program pasca-implementasi.",
       ],
       deliverables: [
         "Sistem pertanian urban akuaponik yang berhasil diimplementasikan",
@@ -558,9 +558,9 @@ const PROJECTS: Array<{
         "Panduan keberlanjutan program bagi komunitas",
       ],
       challenges:
-        "Tantangan utama adalah menyederhanakan teknologi akuaponik agar dapat dipahami dan dioperasikan secara mandiri oleh komunitas dengan latar belakang pertanian tradisional. Selain itu, memastikan keberlanjutan ekosistem akuaponik selama fase implementasi membutuhkan pemantauan intensif dan respons cepat terhadap masalah teknis.",
+        "Pengelolaan Bank Sampah Al Muqarrabin masih konvensional dengan pencatatan manual di buku tabungan nasabah. Seiring bertambahnya jumlah nasabah, cara ini menimbulkan risiko dokumen rusak, hilang, dan kesalahan pencatatan. Selain itu, bank sampah hanya menerima sampah anorganik untuk dijual, sementara sampah organik warga belum memiliki mekanisme pengelolaan tersendiri sehingga cenderung terabaikan.",
       solution:
-        "Sistem akuaponik dirancang dengan prinsip simplicity-first menggunakan material yang mudah diperoleh secara lokal. Pelatihan dilakukan dalam format hands-on yang intensif dengan pendampingan langsung, bukan sekadar transfer teori. Dokumentasi operasional dibuat dalam format visual yang mudah dipahami tanpa latar belakang teknis.",
+        "Tim merancang Hero.bin sebagai aplikasi yang mendigitalisasi pencatatan manajemen sampah Bank Sampah Al Muqarrabin, sehingga data nasabah lebih transparan dan minim risiko kesalahan. Untuk menjawab persoalan sampah organik, program ini diintegrasikan dengan budidaya akuaponik: sampah organik diolah menjadi media budidaya maggot sebagai pakan ikan, dan hasil panen akuaponik menjadi pemasukan tambahan sekaligus reward bagi nasabah melalui sistem poin di aplikasi.",
       impact: [
         "Meraih Top 150 dari total 1.439 peserta mahasiswa dalam program Innovillage PT Telkom Indonesia.",
         "Berhasil meraih Juara 2 Kategori Digital Earth/Green Conservation pada kompetisi Innovillage.",
@@ -809,17 +809,12 @@ export default function App() {
                 Lihat Proyek <ArrowRight size={16} />
               </button>
               <a
-                href="#"
+                href="/cv-ats-muhammad-ilham-nur-furqan.pdf"
+                download="CV-ATS-Muhammad-Ilham-Nur-Furqan.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3 border border-sky-500/40 hover:border-sky-400 text-sky-300 hover:text-sky-200 font-semibold text-sm rounded transition-colors"
               >
                 <Download size={16} /> Unduh CV
               </a>
-              <button
-                onClick={() => scrollTo("#contact")}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 hover:bg-white/10 text-slate-300 font-semibold text-sm rounded transition-colors border border-white/10"
-              >
-                Hubungi Saya
-              </button>
             </div>
           </div>
 
